@@ -1,0 +1,3 @@
+[submodule "src/lib/js-ppwcode-vernacular-semantics"]
+	path = src/lib/js-ppwcode-vernacular-semantics
+	url = https://github.com/peopleware/js-ppwcode-vernacular-semantics-private.git
