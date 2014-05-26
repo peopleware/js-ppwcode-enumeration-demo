@@ -16,3 +16,6 @@
 [submodule "src/lib/dgrid"]
 	path = src/lib/dgrid
 	url = https://github.com/SitePen/dgrid.git
+[submodule "src/lib/dojo/dojo"]
+	path = src/lib/dojo/dojo
+	url = https://github.com/dojo/dojo.git
