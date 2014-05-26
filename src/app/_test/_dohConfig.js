@@ -34,8 +34,8 @@
 
   // when sandbox === false, as it should be, there is no packages array yet
   window.require.packages = [
-    {name: "ppwcode-vernacular-semantics", location: "../../../semantics"},
-    {name: "demo",                         location: "../../../demo/app"}
+    {name: "ppwcode-vernacular-semantics", location: "../../../lib/js-ppwcode-vernacular-semantics"},
+    {name: "demo",                         location: "../../.."}
   ];
 
   window.require["ppwcode-contracts-doh-initialization-done"] = true;
