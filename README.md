@@ -38,6 +38,30 @@ of the box when you navigate your browser to
 `src/app/_test/_doh/runTest.html`.
 Make sure to run the tests on a web server.
 
+### Intern
+When the submodules are downloaded, the Intern tests should work out 
+of the box when you navigate your browser to
+`src/app/_test/_intern/runTest.html`.
+Make sure to run the tests on a web server.
+
+The tests can also be run using NodeJS.
+
+#### Setup:
+* install node on your system from <http://nodejs.org>
+* execute in this directory:
+
+    >\> npm install intern --save-dev
+
+
+This will install the necessary node modules in `./node-modules`.
+
+#### Run
+To run the tests, execute the following command in the root 
+directory: 
+
+    > node node_modules/intern/client config=src/app/_test/_intern/intern
+
+
 
 
 
