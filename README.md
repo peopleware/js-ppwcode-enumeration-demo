@@ -35,7 +35,7 @@ Tests
 ### DOH
 When the submodules are downloaded, the DOH tests should work out 
 of the box when you navigate your browser to
-`src/app/_test/runTest.html`.
+`src/app/_test/_doh/runTest.html`.
 Make sure to run the tests on a web server.
 
 

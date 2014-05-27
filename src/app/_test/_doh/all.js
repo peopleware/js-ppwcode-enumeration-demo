@@ -14,4 +14,4 @@
  limitations under the License.
  */
 
-define(["../viewmodel/_test/all"], 1);
+define(["../../viewmodel/_test/_doh/all"], 1);
