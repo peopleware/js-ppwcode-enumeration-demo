@@ -96,10 +96,12 @@ define({
 	// can be used here
 	loader: {
 		// Packages that should be registered with the loader in each testing environment
+    // The default baseUrl on Node.js is process.cwd(), and in the browser is internDir + '../../'.
+    // process.cwd() should be the root of the project (i.e., ../../../.. of this file).
 		packages: [
-      {name: "ppwcode-vernacular-semantics", location: "../../../../src/lib/js-ppwcode-vernacular-semantics"},
-      {name: "dojo", location: "../../../../src/lib/dojo/dojo"},
-      {name: "demo",                         location: "../../.."}
+      {name: "ppwcode-vernacular-semantics", location: "src/lib/js-ppwcode-vernacular-semantics"},
+      {name: "dojo",                         location: "src/lib/dojo/dojo"},
+      {name: "demo",                         location: "src/app"}
     ]
 	},
 
