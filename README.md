@@ -43,7 +43,7 @@ Make sure to run the tests on a web server.
 * install node on your system from <http://nodejs.org>
 * execute in this directory (i.e., the directory of this README):
 
-    >\> npm install intern --save-dev
+        > npm install intern --save-dev
 
 
 This will install the necessary node modules in `./node-modules`.
