@@ -33,7 +33,7 @@
       </option>
     </inspection_tool>
     <inspection_tool class="CssUnusedSymbol" enabled="true" level="INFO" enabled_by_default="true" />
-    <inspection_tool class="CyclicDependencyInspection" enabled="true" level="DONT" enabled_by_default="true" />
+    <inspection_tool class="CyclicDependencyInspection" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="CyclomaticComplexityJS" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="m_limit" value="10" />
     </inspection_tool>
@@ -98,9 +98,6 @@
     </inspection_tool>
     <inspection_tool class="JSUndefinedPropertyAssignment" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="JSUnfilteredForInLoop" enabled="false" level="WARNING" enabled_by_default="false" />
-    <inspection_tool class="JSUnresolvedVariable" enabled="true" level="WEAK WARNING" enabled_by_default="true">
-      <option name="myStrictlyCheckProperties" value="false" />
-    </inspection_tool>
     <inspection_tool class="JSUnusedGlobalSymbols" enabled="true" level="INFO" enabled_by_default="true" />
     <inspection_tool class="JSUnusedLocalSymbols" enabled="true" level="WEAK WARNING" enabled_by_default="true">
       <option name="myIgnoreUnusedCatchParameters" value="false" />
