@@ -1,6 +1,6 @@
 [submodule "src/lib/js-ppwcode-vernacular-semantics"]
 	path = src/lib/js-ppwcode-vernacular-semantics
-url=https://github.com/peopleware/js-ppwcode-vernacular-semantics-II.git
+url=https://github.com/peopleware/js-ppwcode-vernacular-semantics-B.git
 [submodule "src/lib/dojo/dijit"]
 	path = src/lib/dojo/dijit
 	url = https://github.com/dojo/dijit.git
